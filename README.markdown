@@ -6,7 +6,7 @@ Markup for is a simple gem for use a markup language in a column.
 
 For example, for use textile in the column body, only you need:
 
-<code>acts_as_configuration :body, :textile</code>
+<code>markup_for :body, :textile</code>
 
 Now for get the the html result:
 
