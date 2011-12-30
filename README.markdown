@@ -12,7 +12,7 @@ Now we write in the column.
 
 <code>@post.body = "h1. An HTML first-level heading"</code>
 
-Now for get the the html result:
+Now for get the html result:
 
 <code>@post.body_html</code>
 
