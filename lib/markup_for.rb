@@ -4,7 +4,6 @@ require "markup_for/markup"
 require 'redcarpet'
 require 'creole'
 require 'wikicloth'
-# require 'org-ruby'
 require 'rdoc'
 require 'redcloth'
 
@@ -20,6 +19,7 @@ module MarkupFor
       def #{column_name}_html
         ::MarkupFor::Markup.new.render #{column_name}, :#{markup}
       end
+      
       EOV
       
     end
