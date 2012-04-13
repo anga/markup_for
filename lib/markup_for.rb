@@ -17,7 +17,7 @@ module MarkupFor
       
       class_eval <<-EOV
       def #{column_name}_html
-        ::MarkupFor::Markup.new.render #{column_name}, :#{markup}
+        ::MarkupFor::Markup.new.render (send :#{column_name}).to_s, :#{markup}
       end
       
       EOV
